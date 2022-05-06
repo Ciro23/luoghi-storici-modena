@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+html {
+    background-color: #131313;
+    color: #EAEAEA;
+    font-family: "Jost", sans-serif;
+}
+
+body > h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem 0 3rem;
+}
+
+.menu {
+    position: absolute;
+    left: 0;
+    background-color: #1f1f1f;
+    width: 23rem;
+    height: 100vh;
+    display: flex;
+    padding: 5rem 2rem;
+    text-align: left;
+    gap: 0.7rem;
+    flex-direction: column;
+    list-style: none;
+}
+
+.menu li {
+    font-size: 1.2rem;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu li a:hover {
+    color: #d9d4d4;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70rem;
+    margin: 0 auto;
+    grid-column-gap: 1rem;
+    grid-row-gap: 2rem;
+    justify-content: space-around;
+}
+
+.grid div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 15rem;
+    min-height: 14rem;
+    background-color: #1c1c1c;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.grid img {
+    max-width: 15rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.grid h3 {
+    font-size: 1.1rem;
+    padding: 0.5rem;
+}
+
+.content {
+    width: 47rem;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.content h1 {
+    font-size: 2rem;
+}
+
+.content img {
+    border-radius: 0.5rem;
+}
+
+.content p {
+    display: inline-block;
+    font-size: 1.2rem;
+}
